@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    /* min-height: 111vh; */
+}
+section{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.innerLink{
+    background: rgb(82, 128, 251);
+    padding: 20px;
+    border: 2px solid rgb(82, 128, 251);
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.innerLink:hover{
+    background: transparent;
+    color:  rgb(82, 128, 251);
+    transition: 0.2s, ease-in;
+}
+.subHeading{
+    font-size: 14px;
+    margin: 15px 0px;
+}
+
+@media screen and (max-width: 720px) {
+    section{
+        width: 100%;
+    }
+}
+img{
+    width: 143px;
+    height: 143px;
+}
